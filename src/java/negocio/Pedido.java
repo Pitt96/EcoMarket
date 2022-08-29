@@ -72,6 +72,14 @@ public class Pedido {
     public void setEmpleado(Empleado empleado) {
         this.empleado = empleado;
     }
+
+    public List getLineasPedidos() {
+        return lineasPedidos;
+    }
+
+    public void setLineasPedidos(List lineasPedidos) {
+        this.lineasPedidos = lineasPedidos;
+    }
     
     //metodos de operaciones
     public double subTotal(){
